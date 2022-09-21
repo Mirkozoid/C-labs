@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\MID\MID\bin\Debug\netcoreapp3.1\MID.exe
+C:\Users\User\source\repos\MID\MID\bin\Debug\netcoreapp3.1\MID.deps.json
+C:\Users\User\source\repos\MID\MID\bin\Debug\netcoreapp3.1\MID.runtimeconfig.json
+C:\Users\User\source\repos\MID\MID\bin\Debug\netcoreapp3.1\MID.runtimeconfig.dev.json
+C:\Users\User\source\repos\MID\MID\bin\Debug\netcoreapp3.1\MID.dll
+C:\Users\User\source\repos\MID\MID\bin\Debug\netcoreapp3.1\MID.pdb
+C:\Users\User\source\repos\MID\MID\obj\Debug\netcoreapp3.1\MID.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\MID\MID\obj\Debug\netcoreapp3.1\MID.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\MID\MID\obj\Debug\netcoreapp3.1\MID.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\MID\MID\obj\Debug\netcoreapp3.1\MID.AssemblyInfo.cs
+C:\Users\User\source\repos\MID\MID\obj\Debug\netcoreapp3.1\MID.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MID\MID\obj\Debug\netcoreapp3.1\MID.dll
+C:\Users\User\source\repos\MID\MID\obj\Debug\netcoreapp3.1\MID.pdb
+C:\Users\User\source\repos\MID\MID\obj\Debug\netcoreapp3.1\MID.genruntimeconfig.cache
