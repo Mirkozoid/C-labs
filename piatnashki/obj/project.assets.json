@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\piatnashki\\piatnashki\\piatnashki.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\piatnashki\\piatnashki.csproj",
       "projectName": "piatnashki",
-      "projectPath": "C:\\Users\\User\\source\\repos\\piatnashki\\piatnashki\\piatnashki.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\piatnashki\\piatnashki.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\piatnashki\\piatnashki\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\piatnashki\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

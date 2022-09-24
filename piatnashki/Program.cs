@@ -9,7 +9,7 @@ namespace piatnashki
         {
             while (true)
             {
-                int[,] array = new int[4, 4];
+                int[,] field = new int[4, 4];
                 Random random = new Random();
                 int[] numbers = new int[16];
                 int ind = 0;
@@ -28,21 +28,21 @@ namespace piatnashki
                     numbers[j] = numbers[i];
                     numbers[i] = temp;
                 }
-                for (int i = 0; i < array.GetLength(0); i++)
+                for (int i = 0; i < field.GetLength(0); i++)
                 {
 
-                    for (int j = 0; j < array.GetLength(1); j++)
+                    for (int j = 0; j < field.GetLength(1); j++)
                     {
 
-                        array[i, j] = numbers[ind];
+                        field[i, j] = numbers[ind];
                         ind++;
                     }
                 }
-                for (int i = 0; i < array.GetLength(0); i++)
+                for (int i = 0; i < field.GetLength(0); i++)
                 {
-                    for (int j = 0; j < array.GetLength(1); j++)
+                    for (int j = 0; j < field.GetLength(1); j++)
                     {
-                        Console.Write(array[i, j] + "\t");
+                        Console.Write(field[i, j] + "\t");
                     }
                     Console.WriteLine(" ");
                     Console.WriteLine();
@@ -61,7 +61,7 @@ namespace piatnashki
                         {
                             for (int g = 0; g < 4; g++)
                             {
-                                if (array[i, g] == 0)
+                                if (field[i, g] == 0)
                                 {
                                     index = i;
                                     ger = g;
@@ -70,7 +70,7 @@ namespace piatnashki
                                         for (int j = 0; j < 4; j++)
                                         {
 
-                                            if (array[l, j] == number)
+                                            if (field[l, j] == number)
                                             {
                                                 newIndex = l;
                                                 newGer = j;
@@ -88,16 +88,16 @@ namespace piatnashki
                                 Console.WriteLine("rr");
                                 for (int p = 0; p < 1; p++)
                                 {
-                                    var temp = array[index, ger];
-                                    array[index, ger] = array[newIndex, newGer];
-                                    array[newIndex, newGer] = temp;
+                                    var temp = field[index, ger];
+                                    field[index, ger] = field[newIndex, newGer];
+                                    field[newIndex, newGer] = temp;
                                 }
                                 Console.Clear();
-                                for (int k = 0; k < array.GetLength(0); k++)
+                                for (int k = 0; k < field.GetLength(0); k++)
                                 {
-                                    for (int o = 0; o < array.GetLength(1); o++)
+                                    for (int o = 0; o < field.GetLength(1); o++)
                                     {
-                                        Console.Write(array[k, o] + "\t");
+                                        Console.Write(field[k, o] + "\t");
                                     }
                                     Console.WriteLine(" ");
                                     Console.WriteLine();
@@ -111,16 +111,16 @@ namespace piatnashki
                                 Console.WriteLine("rr");
                                 for (int p = 0; p < 1; p++)
                                 {
-                                    var temp = array[index, ger];
-                                    array[index, ger] = array[newIndex, newGer];
-                                    array[newIndex, newGer] = temp;
+                                    var temp = field[index, ger];
+                                    field[index, ger] = field[newIndex, newGer];
+                                    field[newIndex, newGer] = temp;
                                 }
                                 Console.Clear();
-                                for (int k = 0; k < array.GetLength(0); k++)
+                                for (int k = 0; k < field.GetLength(0); k++)
                                 {
-                                    for (int o = 0; o < array.GetLength(1); o++)
+                                    for (int o = 0; o < field.GetLength(1); o++)
                                     {
-                                        Console.Write(array[k, o] + "\t");
+                                        Console.Write(field[k, o] + "\t");
                                     }
                                     Console.WriteLine(" ");
                                     Console.WriteLine();
@@ -134,11 +134,11 @@ namespace piatnashki
                         Console.ReadKey();
                         Console.Clear();
 
-                        for (int i = 0; i < array.GetLength(0); i++)
+                        for (int i = 0; i < field.GetLength(0); i++)
                         {
-                            for (int j = 0; j < array.GetLength(1); j++)
+                            for (int j = 0; j < field.GetLength(1); j++)
                             {
-                                Console.Write(array[i, j] + "\t");
+                                Console.Write(field[i, j] + "\t");
                             }
                             Console.WriteLine(" ");
                             Console.WriteLine();
