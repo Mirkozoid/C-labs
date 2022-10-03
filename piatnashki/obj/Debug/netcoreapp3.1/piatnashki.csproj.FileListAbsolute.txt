@@ -12,3 +12,17 @@ C:\Users\User\source\repos\piatnashki\piatnashki\obj\Debug\netcoreapp3.1\piatnas
 C:\Users\User\source\repos\piatnashki\piatnashki\obj\Debug\netcoreapp3.1\piatnashki.dll
 C:\Users\User\source\repos\piatnashki\piatnashki\obj\Debug\netcoreapp3.1\piatnashki.pdb
 C:\Users\User\source\repos\piatnashki\piatnashki\obj\Debug\netcoreapp3.1\piatnashki.genruntimeconfig.cache
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\bin\Debug\netcoreapp3.1\piatnashki.exe
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\bin\Debug\netcoreapp3.1\piatnashki.deps.json
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\bin\Debug\netcoreapp3.1\piatnashki.runtimeconfig.json
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\bin\Debug\netcoreapp3.1\piatnashki.runtimeconfig.dev.json
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\bin\Debug\netcoreapp3.1\piatnashki.dll
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\bin\Debug\netcoreapp3.1\piatnashki.pdb
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\obj\Debug\netcoreapp3.1\piatnashki.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\obj\Debug\netcoreapp3.1\piatnashki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\obj\Debug\netcoreapp3.1\piatnashki.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\obj\Debug\netcoreapp3.1\piatnashki.AssemblyInfo.cs
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\obj\Debug\netcoreapp3.1\piatnashki.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\obj\Debug\netcoreapp3.1\piatnashki.dll
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\obj\Debug\netcoreapp3.1\piatnashki.pdb
+C:\Users\User\Desktop\Proj\Labs\C-labs\piatnashki\obj\Debug\netcoreapp3.1\piatnashki.genruntimeconfig.cache
