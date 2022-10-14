@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\sorting\\sorting by choice\\sorting by choice.csproj": {}
+    "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\sorting by choice\\sorting by choice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\sorting\\sorting by choice\\sorting by choice.csproj": {
+    "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\sorting by choice\\sorting by choice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\sorting\\sorting by choice\\sorting by choice.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\sorting by choice\\sorting by choice.csproj",
         "projectName": "sorting by choice",
-        "projectPath": "C:\\Users\\User\\source\\repos\\sorting\\sorting by choice\\sorting by choice.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\sorting by choice\\sorting by choice.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\sorting\\sorting by choice\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\sorting by choice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
