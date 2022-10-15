@@ -16,7 +16,7 @@ namespace ConsoleApp1
             double[] fieldNumber = new double[length];
             for (int i = 0; i < length; i++)
             {
-                if (convertedString[i] == ',')
+                if (convertedString[i] == ',' || convertedString[i] == '.')
                 {
                     convertedString[i] = '0';
                     int degree = i;
@@ -38,15 +38,19 @@ namespace ConsoleApp1
                     }
                     break;
                 }
+                else
+                {
+                    index = length;
+                    for (int j = 0; j < length; j++)
+                    {
+
+                        index--;
+                        fieldNumber[j] = char.GetNumericValue(convertedString[j]);
+                        fieldNumber[j] = fieldNumber[j] * Math.Pow(10, index);
+                    }
+                }
             }
-            index = length;
-            for (int j = 0; j < length; j++)
-            {
-                index--;
-                fieldNumber[j] = char.GetNumericValue(convertedString[j]);
-                fieldNumber[j] = fieldNumber[j] * Math.Pow(10, index);
-                Console.WriteLine(fieldNumber[j]);
-            }
+
             for (int i = 0; i < length; i++)
             {
                 number += fieldNumber[i];
