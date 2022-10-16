@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\SORT\SORT\bin\Debug\netcoreapp3.1\SORT.exe
+C:\Users\User\source\repos\SORT\SORT\bin\Debug\netcoreapp3.1\SORT.deps.json
+C:\Users\User\source\repos\SORT\SORT\bin\Debug\netcoreapp3.1\SORT.runtimeconfig.json
+C:\Users\User\source\repos\SORT\SORT\bin\Debug\netcoreapp3.1\SORT.runtimeconfig.dev.json
+C:\Users\User\source\repos\SORT\SORT\bin\Debug\netcoreapp3.1\SORT.dll
+C:\Users\User\source\repos\SORT\SORT\bin\Debug\netcoreapp3.1\SORT.pdb
+C:\Users\User\source\repos\SORT\SORT\obj\Debug\netcoreapp3.1\SORT.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\SORT\SORT\obj\Debug\netcoreapp3.1\SORT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\SORT\SORT\obj\Debug\netcoreapp3.1\SORT.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\SORT\SORT\obj\Debug\netcoreapp3.1\SORT.AssemblyInfo.cs
+C:\Users\User\source\repos\SORT\SORT\obj\Debug\netcoreapp3.1\SORT.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SORT\SORT\obj\Debug\netcoreapp3.1\SORT.dll
+C:\Users\User\source\repos\SORT\SORT\obj\Debug\netcoreapp3.1\SORT.pdb
+C:\Users\User\source\repos\SORT\SORT\obj\Debug\netcoreapp3.1\SORT.genruntimeconfig.cache
