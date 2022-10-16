@@ -18,10 +18,6 @@ namespace ConsoleApp1
             {
                 if (convertedString[i] == ',' || convertedString[i] == '.')
                 {
-                    if (convertedString[0] == '-')
-                    {
-                        convertedString[0] = '0';
-                    }
                     convertedString[i] = '0';
                     int degree = i;
                     fieldNumber[i] = char.GetNumericValue(convertedString[i]);
@@ -44,10 +40,6 @@ namespace ConsoleApp1
                 }
                 else
                 {
-                    if (convertedString[0] == '-')
-                    {
-                        convertedString[0] = '0';
-                    }
                     index = length;
                     for (int j = 0; j < length; j++)
                     {
@@ -58,15 +50,16 @@ namespace ConsoleApp1
                     }
                 }
             }
-            if (fieldNumber[0] == 0)
+            if (convertedString[0] == '-')
             {
+                fieldNumber[0] = 0;
                 for (int i = 0; i < length; i++)
                 {
                     number += fieldNumber[i];
                 }
                 number = Math.Abs(number) * (-1);
             }
-            if (fieldNumber[0] != 0)
+            if (convertedString[0] != '-')
             {
                 for (int i = 0; i < length; i++)
                 {
