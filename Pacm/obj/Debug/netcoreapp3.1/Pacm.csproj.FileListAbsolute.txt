@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\Pacm\Pacm\bin\Debug\netcoreapp3.1\Pacm.exe
+C:\Users\User\source\repos\Pacm\Pacm\bin\Debug\netcoreapp3.1\Pacm.deps.json
+C:\Users\User\source\repos\Pacm\Pacm\bin\Debug\netcoreapp3.1\Pacm.runtimeconfig.json
+C:\Users\User\source\repos\Pacm\Pacm\bin\Debug\netcoreapp3.1\Pacm.runtimeconfig.dev.json
+C:\Users\User\source\repos\Pacm\Pacm\bin\Debug\netcoreapp3.1\Pacm.dll
+C:\Users\User\source\repos\Pacm\Pacm\bin\Debug\netcoreapp3.1\Pacm.pdb
+C:\Users\User\source\repos\Pacm\Pacm\obj\Debug\netcoreapp3.1\Pacm.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Pacm\Pacm\obj\Debug\netcoreapp3.1\Pacm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Pacm\Pacm\obj\Debug\netcoreapp3.1\Pacm.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Pacm\Pacm\obj\Debug\netcoreapp3.1\Pacm.AssemblyInfo.cs
+C:\Users\User\source\repos\Pacm\Pacm\obj\Debug\netcoreapp3.1\Pacm.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Pacm\Pacm\obj\Debug\netcoreapp3.1\Pacm.dll
+C:\Users\User\source\repos\Pacm\Pacm\obj\Debug\netcoreapp3.1\Pacm.pdb
+C:\Users\User\source\repos\Pacm\Pacm\obj\Debug\netcoreapp3.1\Pacm.genruntimeconfig.cache
