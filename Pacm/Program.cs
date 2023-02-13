@@ -14,7 +14,6 @@ namespace Pac
             while (true)
             {
                 Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Magenta;
                 DrawMap(map);               
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.Write("Score: " + score);
@@ -44,8 +43,15 @@ namespace Pac
             for (int y = 0; y < map.GetLength(1); y++)
             {
                 for (int x = 0; x < map.GetLength(0); x++)
-
                 {
+                    if (map[x, y] == '.')
+                    {
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Magenta;
+                    }
                     Console.Write(map[x, y]);
                 }
                 Console.Write("\n");
