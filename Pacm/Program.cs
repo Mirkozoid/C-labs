@@ -14,12 +14,15 @@ namespace Pac
             while (true)
             {
                 Console.Clear();
-                DrawMap(map);               
+
+                DrawMap(map);
+                
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.Write("Score: " + score);
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.SetCursorPosition(pacManX, pacManY);
                 Console.Write("@");
+
                 ConsoleKeyInfo pressedKey = Console.ReadKey();
                 HandleInput(pressedKey, ref pacManX, ref pacManY, map , ref score);
             }
@@ -38,6 +41,7 @@ namespace Pac
             }
             return map;
         }
+
         private static void DrawMap(char[,] map)
         {
             for (int y = 0; y < map.GetLength(1); y++)
@@ -58,6 +62,7 @@ namespace Pac
             }
 
         }
+
         private static void HandleInput(ConsoleKeyInfo pressedKey, ref int pacManX, ref int pacManY, char[,] map, ref int score)
         {
             int[] direction = GetDirection(pressedKey);
@@ -80,6 +85,7 @@ namespace Pac
                 }
             }
         }
+
         private static int[] GetDirection(ConsoleKeyInfo pressedKey)
         {
             int[] direction = { 0, 0 };
@@ -101,6 +107,7 @@ namespace Pac
             }
             return direction;
         }
+
         private static int GetMaxOfTheLength(string[] lines)
         {
             int maxLength = lines[0].Length;
