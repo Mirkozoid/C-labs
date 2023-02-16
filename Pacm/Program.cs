@@ -22,7 +22,7 @@ namespace Pac
                 Console.Write("@");
 
                 ConsoleKeyInfo pressedKey = Console.ReadKey();
-                HandleInput(pressedKey, ref Value.PacManX, ref Value.PacManY, map , ref Value.Score);
+                HandleInput(pressedKey, Value, map);
             }
         }
 
@@ -61,25 +61,25 @@ namespace Pac
 
         }
 
-        private static void HandleInput(ConsoleKeyInfo pressedKey, ref int pacManX, ref int pacManY, char[,] map, ref int score)
+        private static void HandleInput(ConsoleKeyInfo pressedKey, State Value, char[,] map)
         {
             int[] direction = GetDirection(pressedKey);
-            int nextPacManPositionX = pacManX + direction[0];
-            int nextPacManPositionY = pacManY + direction[1];
+            int nextPacManPositionX = Value.PacManX + direction[0];
+            int nextPacManPositionY = Value.PacManY + direction[1];
             if (map[nextPacManPositionX, nextPacManPositionY] == ' ')
             {
-                pacManX = nextPacManPositionX;
-                pacManY = nextPacManPositionY;
+                Value.PacManX = nextPacManPositionX;
+                Value.PacManY = nextPacManPositionY;
             }
             else if (map[nextPacManPositionX, nextPacManPositionY] == '.')
             {
-                score += 1;
-                map[pacManX, pacManY] = ' ';
-                pacManX = nextPacManPositionX;
-                pacManY = nextPacManPositionY;
-                if (map[pacManX, pacManY] == '.')
+                Value.Score += 1;
+                map[Value.PacManX, Value.PacManY] = ' ';
+                Value.PacManX = nextPacManPositionX;
+                Value.PacManY = nextPacManPositionY;
+                if (map[Value.PacManX, Value.PacManY] == '.')
                 {                   
-                    map[pacManX, pacManY] = ' ';
+                    map[Value.PacManX, Value.PacManY] = ' ';
                 }
             }
         }
