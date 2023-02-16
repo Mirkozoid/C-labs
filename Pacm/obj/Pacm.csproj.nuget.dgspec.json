@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Pacm\\Pacm\\Pacm.csproj": {}
+    "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\Pacm\\Pacm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Pacm\\Pacm\\Pacm.csproj": {
+    "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\Pacm\\Pacm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Pacm\\Pacm\\Pacm.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\Pacm\\Pacm.csproj",
         "projectName": "Pacm",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Pacm\\Pacm\\Pacm.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\Pacm\\Pacm.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Pacm\\Pacm\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Proj\\Labs\\C-labs\\Pacm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

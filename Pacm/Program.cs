@@ -6,25 +6,23 @@ namespace Pac
     {
         static void Main(string[] args)
         {
+            State Value = new State();
             Console.CursorVisible = false;
-            int pacManX = 11;
-            int pacManY = 6;
-            int score = 0;
             char[,] map = ReadMap("map.txt");
             while (true)
             {
-                Console.Clear();
+                Console.Clear();                
 
                 DrawMap(map);
                 
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.Write("Score: " + score);
+                Console.Write("Score: " + Value.Score);
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.SetCursorPosition(pacManX, pacManY);
+                Console.SetCursorPosition(Value.PacManX, Value.PacManY);
                 Console.Write("@");
 
                 ConsoleKeyInfo pressedKey = Console.ReadKey();
-                HandleInput(pressedKey, ref pacManX, ref pacManY, map , ref score);
+                HandleInput(pressedKey, ref Value.PacManX, ref Value.PacManY, map , ref Value.Score);
             }
         }
 
@@ -121,4 +119,10 @@ namespace Pac
             return maxLength;
         }
     }
+        class State
+        {
+            public int PacManX = 11;
+            public int PacManY = 6;
+            public int Score = 0;
+        }
 }
